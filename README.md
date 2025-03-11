@@ -20,4 +20,7 @@ The onboarding team is interested in tracking the status of companies in the onb
 
 4. Write the SQL to merge data from the stage to the destination table in a file called `response/merge.sql` 
 
-5. Write a dbt Model(s) to that will be used to build dashboards for the team to answer the questions above. Save this file(s) with the prefix `response/dbt_{model_name}.sql`. Please also include dbt docs for the models.
+5. Write a dbt Model(s) that will be used to build dashboards for the team to answer the questions above. Save this file(s) with the prefix `response/dbt_{model_name}.sql`. Please also include dbt docs for the model(s).
+
+### Submission
+To submit your assessment, share your forked repo with @jmhollinger (if it is private) and send your recruiter and hiring manager a link to it.
