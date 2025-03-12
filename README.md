@@ -14,7 +14,7 @@ The onboarding team is interested in tracking the status of companies in the onb
 ### Tasks
 1. Examine the data from the API at https://suzcamnu65hid4pw4qo66azao40dyusc.lambda-url.us-east-1.on.aws/. You will be provided an API Key that is passed as the header `mt-api-key`.
 
-2. Write a Python script in `response/flow.py` to pull the data from the API, transform it as needed, and save to an S3 Bucket in a directory for your name. This S3 bucket is set up as stage in Snowflake and you will be tasked with loading the data from this stage to Snowflake. We typically load data from stages in AVRO, JSON, and CSV formats. You will be provided AWS credentials to upload to the bucket.
+2. Write a Python script in `response/flow.py` to pull the data from the API, transform it as needed, and save to an S3 Bucket (`mt-data-engineer-interview`) in a directory for your name. This S3 bucket is set up as stage in Snowflake and you will be tasked with loading the data from this stage to Snowflake. We typically load data from stages in AVRO, JSON, and CSV formats. You will be provided AWS credentials to upload to the bucket.
 
 3. Write the SQL to create a destination table to load the data to in a file called `response/destination_table.sql`
 
